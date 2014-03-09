@@ -1,0 +1,41 @@
+
+
+/* ==========================================================================
+   Useful media queries for Bootstrap
+   - Make sure these is after (or at the bottom of) your main.css file
+   ========================================================================== */
+
+/* XS: only extra small devices (phones) */
+@media (max-width: 767px) {
+
+}
+
+/* SM: only small devices (iPad) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* SM+: small and up (iPad) */
+@media (min-width: 768px) {
+
+}
+
+/* MD: only medium devices (15" laptop) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* MD+: medium and up (15" laptop) */
+@media (min-width: 992px) {
+
+}
+
+/* LG: only large devices (24" monitor) */
+@media (min-width: 1200px) {
+
+}
+
+/* 2X: Retina specific */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+
+}
