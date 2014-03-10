@@ -6,32 +6,37 @@
    ========================================================================== */
 
 /* XS: only extra small devices (phones) */
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 
 }
 
 /* SM: only small devices (iPad) */
-@media (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 
 }
 
 /* SM+: small and up (iPad) */
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
 }
 
-/* MD: only medium devices (15" laptop) */
-@media (min-width: 992px) and (max-width: 1199px) {
+/* MD: only medium devices (11" laptop, old 4:3 desktop) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
 
 }
 
-/* MD+: medium and up (15" laptop) */
-@media (min-width: 992px) {
+/* MD+: medium and up (11" laptop, old 4:3 monitor) */
+@media only screen and (min-width: 992px) {
 
 }
 
-/* LG: only large devices (24" monitor) */
-@media (min-width: 1200px) {
+/* LG: large devices (15" laptop, old 16:9 monitor) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* Custom for extra large devices (24" HD monitor) */
+@media only screen and (min-width : 1824px) {
 
 }
 
